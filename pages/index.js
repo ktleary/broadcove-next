@@ -1,5 +1,6 @@
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
+import ClientLogo from "@layouts/components/ClientLogo";
 import Cta from "@layouts/components/Cta";
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
@@ -10,7 +11,15 @@ import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
 
 const Home = ({ frontmatter }) => {
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const {
+    banner,
+    feature,
+    services,
+    technology,
+    client,
+    workflow,
+    call_to_action,
+  } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -21,7 +30,7 @@ const Home = ({ frontmatter }) => {
           <div className="row text-center">
             <div className="mx-auto lg:col-10">
               <h1 className="font-primary font-bold">{banner.title}</h1>
-              <p className="mt-4">{markdownify(banner.content)}</p>
+              <p className="mt-4 text-left">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
                   className="btn btn-primary mt-4"
@@ -114,7 +123,7 @@ const Home = ({ frontmatter }) => {
                   }`}
                 >
                   <h2 className="font-bold leading-[40px]">{service?.title}</h2>
-                  <p className="mt-4 mb-2">{service?.content}</p>
+                  <p className="mb-2 mt-4">{service?.content}</p>
                   {service.button.enable && (
                     <Link
                       href={service?.button.link}
@@ -137,22 +146,52 @@ const Home = ({ frontmatter }) => {
         );
       })}
 
-      {/* workflow */}
-      <section className="section pb-0">
-        <div className="mb-8 text-center">
-          {markdownify(
-            workflow.title,
-            "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
-          )}
-          {markdownify(workflow.description, "p", "mt-3")}
+      {/* Technologies */}
+
+      <section className="section bg-theme-light">
+        <div className="container">
+          <div className="text-center">
+            <h2>{markdownify(technology.title)}</h2>
+            <p className="mt-4">{markdownify(technology.description)} </p>
+          </div>
+
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {technology?.technologies?.map((item, i) => (
+              <div
+                className="h-30 rounded-xl bg-white p-4 text-center shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+                key={`technology-${i}`}
+                title={item.name}
+              >
+                <i
+                  className={`text-6xl
+                   ${item.icon} `}
+                ></i>
+                <div className="mt-2 text-lg  text-primary">{item.name}</div>
+              </div>
+            ))}
+          </div>
         </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
+      </section>
+
+      {/* Selected Clients and Partners */}
+      <section className="section bg-theme-light">
+        <div className="container">
+          <div className="text-center">
+            <h2>{client.title}</h2>
+            <p className="mt-4">{client.description}</p>
+          </div>
+
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {client.clients.map((item, i) => (
+              <ClientLogo
+                key={i}
+                clientName={item.name}
+                imagePath={item.image}
+                altText={`Logo of ${item.name}`}
+              />
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* Cta */}
@@ -172,3 +211,21 @@ export const getStaticProps = async () => {
 };
 
 export default Home;
+
+/* workflow */
+/* <section className="section pb-0">
+<div className="mb-8  ml-16 mr-16 text-center">
+{markdownify(
+workflow.title,
+"h2",
+"mx-auto max-w-[800px] font-bold leading-[44px]"
+)}
+{markdownify(workflow.description, "p", "mt-3")}
+</div>
+<Image
+src={workflow.image}
+alt="experience image"
+width={1920}
+height={296}
+/>
+</section> */

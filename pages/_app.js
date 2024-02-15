@@ -42,6 +42,10 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        ></link>
         <style
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,

@@ -10,7 +10,7 @@ function Pricing({ data }) {
       <section className="section pb-0">
         <div className="container">
           <h1 className="text-center font-normal">{title}</h1>
-          <div className="section row -mt-10 justify-center md:mt-0">
+          <div className="section row mt-10 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div
                 className={`col-12 md:col-4 ${
@@ -18,7 +18,7 @@ function Pricing({ data }) {
                 }`}
                 key={plan.title + index}
               >
-                <div className="card text-center">
+                <div className="text-center">
                   <h4>{plan.title}</h4>
                   <div className="mt-5">
                     <span className="text-5xl text-dark">${plan.price}</span>

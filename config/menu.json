@@ -5,12 +5,8 @@
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
-    },
-    {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "About",
+      "url": "/about"
     },
     {
       "name": "Contact",
@@ -26,29 +22,25 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "About",
+          "url": "/about"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Services",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Architecture",
+          "url": "/services#architecture"
         },
         {
-          "text": "Platform",
-          "url": "#"
+          "text": "Performance Optimization",
+          "url": "/services#performance"
         },
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Modernization",
+          "url": "/services#modernization"
         }
       ]
     },
@@ -61,11 +53,11 @@
         },
         {
           "text": "Privacy Policy",
-          "url": "#"
+          "url": "/privacy"
         },
         {
           "text": "Terms & Conditions",
-          "url": "#"
+          "url": "/terms"
         }
       ]
     }

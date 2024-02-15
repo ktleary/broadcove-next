@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Broadcove",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "200",
+    "logo": "/images/broadcove-logo-rectangle.png",
+    "logo_width": "100",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Broadcove"
   },
 
   "settings": {
@@ -24,8 +24,8 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Software development services for high growth companies. We help you build scalable software solutions that grow with your business.",
+    "copyright": "Theme by [Themefisher](https://themefisher.com/)"
   },
 
   "metadata": {

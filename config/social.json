@@ -1,10 +1,10 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
+  "facebook": "",
+  "twitter": "",
   "instagram": "",
   "youtube": "",
-  "linkedin": "https://linkedin.com/",
-  "github": "",
+  "linkedin": "https://linkedin.com/company/broadcove",
+  "github": "https://github.com/Broadcove",
   "gitlab": "",
   "discord": "",
   "slack": "",
@@ -24,9 +24,9 @@
   "tiktok": "",
   "foursquare": "",
   "rss": "",
-  "email": "",
-  "phone": "",
-  "address": "",
-  "skype": "https://skype.com/",
+  "email": "hello@broadcove.io",
+  "phone": "1.716.226.6123",
+  "address": "https://www.google.com/maps/place/1632+1st+Ave.,+New+York,+NY+10028/@40.7759982,-73.9497608,17z/data=!3m1!4b1!4m6!3m5!1s0x89c258ba3b1e0661:0x3f2d7bbea5f6e630!8m2!3d40.7759982!4d-73.9497608!16s%2Fg%2F11c2frzl5m?entry=ttu",
+  "skype": "",
   "website": ""
 }

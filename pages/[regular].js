@@ -4,7 +4,11 @@ import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
+import Privacy from "@layouts/Privacy";
+import Terms from "@layouts/Terms";
+import About from "@layouts/About";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
+import Services from "@layouts/Services";
 
 // for all regular pages
 const RegularPages = ({ data }) => {
@@ -29,6 +33,14 @@ const RegularPages = ({ data }) => {
         <Pricing data={data} />
       ) : layout === "faq" ? (
         <Faq data={data} />
+      ) : layout === "privacy" ? (
+        <Privacy data={data} />
+      ) : layout === "terms" ? (
+        <Terms data={data} />
+      ) : layout === "about" ? (
+        <About data={data} />
+      ) : layout === "services" ? (
+        <Services data={data} />
       ) : (
         <Default data={data} />
       )}
