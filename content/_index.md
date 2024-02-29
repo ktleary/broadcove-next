@@ -39,7 +39,7 @@ services:
       - "/images/javascript-2.png"
       - "/images/javascript-3.png"
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: /contact
 
@@ -48,7 +48,7 @@ services:
     images:
       - "/images/ai-1.png"
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: /contact
 
@@ -59,7 +59,7 @@ services:
       - "/images/mobile-2.png"
       - "/images/mobile-3.png"
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: /contact
 
@@ -70,7 +70,7 @@ services:
       - "/images/startup-consulting-2.png"
       - "/images/startup-consulting-3.png"
     button:
-      enable: true
+      enable: false
       label: Check it out
       link: /contact
 
