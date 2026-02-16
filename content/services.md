@@ -1,28 +1,28 @@
 ---
 title: Services
-Last updated: February 06, 2024
-description: Maximize your website's potential with JavaScript consulting from industry experts.
+Last updated: February 16, 2026
+description: Full-stack development, AI integration, and technical consulting for businesses that need it done right.
 layout: services
 draft: false
 sections:
-  - title: Architecture
+  - title: Architecture & Development
     anchor: architecture
-    content: Leveraging the full power of React, Node.js, Next.js, and TypeScript, Broadcove specializes in constructing scalable, efficient web and mobile applications that fuel business growth. Our architectural designs prioritize high availability and performance, seamlessly integrating with cloud platforms such as AWS, Azure, and Google Cloud to ensure your applications are resilient and capable of handling peak loads with ease. Our approach encompasses a comprehensive analysis of your business needs, ensuring that the architecture we propose aligns perfectly with your strategic objectives.
+    content: We build web and mobile applications on a modern TypeScript stack — React, Node.js, Next.js, and Python on the backend. Every project starts with architecture that fits the actual requirements, not a one-size-fits-all template. We design for the scale you need today while making it straightforward to grow tomorrow. Cloud deployment on AWS, DigitalOcean, or your preferred platform is included — not an afterthought.
     images: ["/images/javascript-1.png", "/images/javascript-2.png", "/images/javascript-3.png"]
-  - title: Performance & Standardization
-    anchor: performance
-    content: Broadcove's performance optimization services are designed to elevate your website's speed and efficiency to the next level. Our experts meticulously identify and address performance bottlenecks, utilizing tools like Google Lighthouse and WebPageTest to analyze current performance metrics. We implement best practices in code splitting, lazy loading, efficient data fetching, and caching strategies to enhance your site's responsiveness and loading times, ensuring users enjoy a seamless experience across all devices.
-    images: ["/images/javascript-1.png", "/images/javascript-2.png", "/images/javascript-3.png"]
-  - title: Modernization
-    anchor: modernization
-    content: Stay ahead in the digital era with Broadcove's website modernization services. Our team guides you through updating your technology stack, adopting the latest frameworks and languages to keep your website at the forefront of innovation. We focus on implementing standard coding practices, ensuring your project adheres to industry standards for security, performance, and maintainability. Whether transitioning from legacy systems or integrating modern frontend frameworks, Broadcove ensures your web presence is sleek, secure, and sustainable.".
+  - title: AI Integration
+    anchor: ai
+    content: Practical AI that solves real problems. We integrate LLMs, build agentic workflows, and add intelligent features to existing products — document processing, natural language interfaces, automated decision-making, and more. We focus on reliability and production-readiness, not impressive demos that break under real usage. If you're exploring how AI can improve your product or operations, we can help you figure out what's worth building and what's hype.
     images: ["/images/ai-1.png"]
-  - title: Scalability
+  - title: Performance & Modernization
+    anchor: performance
+    content: Slow sites lose users. Legacy code slows down teams. We optimize existing applications for speed and maintainability — identifying bottlenecks, modernizing outdated stacks, migrating to TypeScript, improving test coverage, and setting up CI/CD pipelines. The goal is a codebase your team can move fast in, not just one that works today.
+    images: ["/images/javascript-1.png", "/images/javascript-2.png", "/images/javascript-3.png"]
+  - title: API Design & Integration
     anchor: scalability
-    content: Broadcove understands the critical importance of scalability for growing businesses. Our development practices are rooted in building applications that can effortlessly scale in response to your user demand. From efficient database design and microservices architecture to serverless computing and load balancing techniques, we ensure that your application remains robust and responsive as your traffic spikes. Partner with us to build a foundation that supports your growth ambitions without compromising on performance..
+    content: Clean, well-documented APIs are the backbone of any modern application. We design and build RESTful and GraphQL services, handle third-party integrations, and architect systems that are reliable under load. Whether you need a public API for partners, internal services for your team, or integrations with payment processors, CRMs, or data providers — we've done it.
     images: ["/images/javascript-1.png", "/images/mobile-2.png", "/images/mobile-3.png"]
-  - title: Accessibility
-    anchor: accessibility
-    content: Accessibility is at the heart of inclusive design, and Broadcove is committed to ensuring your website is accessible to every user, including those with disabilities. Our development process incorporates WCAG (Web Content Accessibility Guidelines) and ADA (Americans with Disabilities Act) standards from the ground up. We conduct thorough accessibility audits, implement semantic HTML, ARIA (Accessible Rich Internet Applications) roles, and ensure keyboard navigation and screen reader compatibility, making your website universally accessible and compliant..
+  - title: Technical Consulting
+    anchor: consulting
+    content: Sometimes you don't need another developer — you need someone who's been through it before. We advise founders and engineering leads on stack selection, build-vs-buy decisions, hiring technical talent, preparing for scale, and navigating the rapidly evolving AI landscape. Practical guidance from two decades of building software, not theoretical frameworks.
     images: ["/images/startup-consulting-1.png", "/images/startup-consulting-2.png", "/images/startup-consulting-3.png"]
 ---
