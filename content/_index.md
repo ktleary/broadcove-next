@@ -80,7 +80,32 @@ technology:
   description: "We pick the right tool for the job — not the trendiest one. That said, these are the technologies we reach for most often and know inside-out."
 
 # clients
-clients:
+client:
   title: "Selected Clients & Partners"
   description: "We've worked with companies ranging from early-stage startups to Fortune 500 enterprises across fintech, healthcare, e-commerce, and SaaS."
+  clients:
+    - name: "Mor"
+      image: "/images/clients/morLogoLight.png"
+    - name: "SeatGeek"
+      image: "/images/clients/seatgeek-logo.svg"
+    - name: "Stride"
+      image: "/images/clients/stride-logo.svg"
+    - name: "g2i"
+      image: "/images/clients/g2i.svg"
+
+# workflow
+workflow:
+  title: "Quality-Driven Development"
+  image: "/images/experience-banner-fff.svg"
+  description: "We combine lean, agile development with a commitment to code quality that lasts. Iterative delivery, continuous feedback, and architecture decisions made for the long term — not just the next sprint."
+
+# call_to_action
+call_to_action:
+  title: "Ready to Talk?"
+  content: "Whether you're building something new or improving what you've got, we'd like to hear about it. No pitch decks, no fluff — just a conversation about your project."
+  image: "/images/start-now.svg"
+  button:
+    enable: true
+    label: "Get in Touch"
+    link: "/contact"
 ---
